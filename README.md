@@ -110,7 +110,7 @@ Implemented a callback to halt training when validation accuracy does not improv
 
 The model achieved an accuracy of **80%** on the validation data. The following graphs visualize the training and validation accuracy and loss over epochs:
 
-![Training vs Validation Loss](loss_plot.png)  
+![Training vs Validation Loss](images/loss.JPG)  
 ![Training vs Validation Accuracy](images/acc.JPG)
 
 ### Precision, Recall, and F1 Score
