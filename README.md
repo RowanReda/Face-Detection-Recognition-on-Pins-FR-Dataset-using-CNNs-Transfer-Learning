@@ -119,15 +119,7 @@ The classification report includes detailed precision, recall, and F1-score for 
 
 ```plaintext
 Accuracy: 0.7981
-Classification Report:
-              precision    recall  f1-score   support
-           0       0.86      0.90      0.88        40
-           1       0.64      0.93      0.76        30
-           2       0.88      0.93      0.90        40
-           ...
-    accuracy                           0.80      3487
-   macro avg       0.81      0.79      0.79      3487
-weighted avg       0.81      0.80      0.80      3487
+![Training vs Validation Loss](images/report.JPG)  
 ```
 
 
