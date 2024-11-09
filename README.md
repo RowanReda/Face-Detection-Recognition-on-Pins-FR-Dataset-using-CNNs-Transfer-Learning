@@ -1,4 +1,6 @@
+Here’s a README outline for each of the provided notebooks to clarify the purpose, processes, and outputs:
 
+---
 
 ### `face_detection_cropped_dataset.ipynb`
 
