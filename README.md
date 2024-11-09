@@ -77,6 +77,12 @@ This notebook captures live video from the camera, detects faces in real-time, a
 
 **Purpose:**  
 This notebook trains a deep learning model (using Inception architecture) for classifying celebrity faces. Fine-tunes the InceptionV3 model to classify faces across 105 classes (celebrities).
+**Files and Outputs**
+  - face_embeddings.npy: Embeddings generated for each image using FaceNet.
+  - inception80%.h5: The trained model file, achieving an accuracy of 80%.
+  - Training History Graphs: Visualizations of accuracy and loss over epochs for both training and validation.
+  - Classification Report: Includes precision, recall, F1-score, and support for each class.
+
 
 ## Model Architecture
 
@@ -124,11 +130,6 @@ Classification Report:
 weighted avg       0.81      0.80      0.80      3487
 ```
 
-### Confusion Matrix
-
-The confusion matrix visualizes model performance across all 105 classes:
-
-![Confusion Matrix](confusion_matrix.png)
 
 ### Additional Metrics
 
